@@ -3,18 +3,16 @@ package com.example.flashscooters
 
 import android.arch.core.executor.testing.InstantTaskExecutorRule
 import com.example.flashscooters.Model.Local.VehicleDao
-import com.example.flashscooters.ViewModel.VehicleListViewModel
 import com.example.flashscooters.ViewModel.VehicleViewModel
 import com.google.common.truth.Truth
 import net.gahfy.mvvmposts.model.database.AppDatabase
+import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.mockito.InjectMocks
 import org.mockito.Mock
-import org.mockito.junit.MockitoJUnit
 import org.mockito.MockitoAnnotations
-import org.junit.Before
-
+import org.mockito.junit.MockitoJUnit
 
 
 class VehicleViewModelTest
